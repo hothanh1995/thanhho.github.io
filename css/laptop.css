@@ -48,26 +48,23 @@ body {
 }
 
 /* Avatar */
-.avart-banner {
-  position: absolute;
-  display: inline-block;
-  bottom: 0;
-  right: 32%;
-  transform: translate(-57%, 70%);
-}
-
 .avartar-default {
   height: 220px;
   width: 220px;
   border-radius: 50%;
   padding: 5px;
   background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* NavBar */
 .nav-name {
   display: inline-block;
   margin: 0 90px 0 80px;
+  position: relative;
 }
 
 #nav-bar {
