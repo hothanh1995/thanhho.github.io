@@ -1,0 +1,57 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Banner */
+  .nav-name,
+  .avart-banner {
+    display: none;
+  }
+
+  #nav-bar a:link,
+  a:visited {
+    padding: 10px;
+    margin: 20px;
+    padding-bottom: 10px;
+  }
+
+  #nav-bar {
+    margin-top: 10px;
+  }
+
+  /* Xây dựng Thông tin cá nhân */
+  #about {
+    margin: 0;
+  }
+
+  #target {
+    font-size: 16px;
+    padding: 30px;
+  }
+
+  #personal-info {
+    font-size: 16px;
+    padding: 20px 30px 150px;
+  }
+
+  /* Xây dựng phần Thông tin nghề nghiệp */
+  .job-title {
+    font-size: 14px;
+  }
+
+  .job-icon {
+    font-size: 30px;
+  }
+
+  /* Xây dựng phần Dự án */
+  .project-name {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .project-icon {
+    font-size: 14px;
+  }
+
+  .project-detail {
+    padding: 8px;
+    font-size: 10px;
+  }
+}

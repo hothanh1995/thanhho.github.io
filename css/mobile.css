@@ -1,0 +1,51 @@
+@media (max-width: 767.98px) {
+  /* Banner */
+  .nav-name,
+  .avart-banner {
+    display: none;
+  }
+
+  #nav-bar {
+    display: block;
+    height: auto;
+  }
+
+  #nav-bar a:link,
+  a:visited {
+    border-left: none;
+    text-align: left;
+    padding: 10px;
+  }
+
+  /* Xây dựng phần Thông tin nghề nghiệp */
+  .job-title {
+    font-size: 14px;
+  }
+
+  .job-icon {
+    font-size: 30px;
+  }
+
+  /* Xây dựng phần Chứng chỉ - Giải thưởng */
+  .cer-border-1 {
+    border-left: none;
+    padding-top: 30px;
+  }
+
+  .cer-border-2 {
+    padding-bottom: 20px;
+  }
+
+  /* Xây dựng phần Dự án */
+  #project {
+    padding: 20px 60px;
+  }
+
+  /* Xây dựng phần Liên hệ */
+
+  #footer a:link,
+  a:visited {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+}
