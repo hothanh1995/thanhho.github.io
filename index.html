@@ -11,6 +11,10 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
 
     <title>Assignment 03 - Hồ Văn Thành</title>
 
@@ -35,13 +39,7 @@
         <h1>Hồ Văn Thành</h1>
         <span>Full Stack Developer</span>
       </div>
-      <div class="avart-banner">
-        <img
-          src="./images/thanh-avatar.png"
-          alt="Avartar"
-          class="avartar-default"
-        />
-      </div>
+      <div class="avart-banner"></div>
     </div>
 
     <section id="nav-bar" class="info-navbar">
@@ -52,6 +50,11 @@
         <div class="nav-name">
           <h1>Hồ Văn Thành</h1>
           <span>Full Stack Developer</span>
+          <img
+            src="./images/thanh-avatar.png"
+            alt="Avartar"
+            class="avartar-default"
+          />
         </div>
 
         <a href="#"><i class="icon icon-mail-alt"></i> &nbsp; Chứng chỉ</a>
@@ -64,7 +67,7 @@
     <section id="about">
       <div class="container my-md-3 py-md-3">
         <div class="row align-items-center justify-content-center py-2 my-3">
-          <div id="target" class="col-md">
+          <div id="target" class="col-md-6">
             <div class="section-title py-3 my-2">Mục tiêu nghề nghiệp</div>
             <p>
               Chuyên viên Tư vấn Tài chính với hơn 3 năm trợ lý hành chính, quản
@@ -76,7 +79,7 @@
               tiêu kinh doanh một cách nhanh nhất, và hiệu quả nhất.
             </p>
           </div>
-          <div id="personal-info" class="col-md">
+          <div id="personal-info" class="col-md-6">
             <div class="section-title pt-2 pb-4 my-2">Thông tin cá nhân</div>
             <ul class="mt-40 info">
               <li><span>Giới tính</span> : Nam</li>
@@ -412,7 +415,7 @@
       </div>
     </section>
 
-    <section id="footer">
+    <section id="footer" class="position-relative">
       <div class="container">
         <div class="footer-link">
           <a href="#"
@@ -423,6 +426,9 @@
           >
           <a href="#"><i class="icon-github-circled footer-icon"></i> Github</a>
         </div>
+        <a href="#" class="bottom-0 end-0 position-absolute">
+          <i class="bi bi-arrow-up-circle h3"></i>
+        </a>
       </div>
     </section>
 
